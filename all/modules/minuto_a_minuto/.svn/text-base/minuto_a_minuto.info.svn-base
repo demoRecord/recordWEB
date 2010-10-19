@@ -1,0 +1,3 @@
+name = minuto_a_minuto
+description = "Permite Narrar un partido"
+core = 6.x

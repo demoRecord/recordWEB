@@ -1,0 +1,182 @@
+.clear{
+	clear:both;
+}
+
+#narracion{
+	width:100%;
+}
+
+#narracion .minuto_item{
+	width:100%;
+	border:1px solid #000;
+	margin: 5px 0 5px 0;
+	min-height: 50px;
+}
+
+#narracion .minuto_item .tiempo{
+	float:left;
+	width:40px;
+	font-size:18px;
+	margin-top:15px;
+	margin-left:10px;
+}
+
+
+
+#narracion .minuto_item .imagen_timeline{
+	float:left;
+	margin-top:10px;
+	width:30px;
+}
+
+#narracion .minuto_item .minuto_message{
+	float:left;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:15px;
+	font-weight:bold;
+	width: 530px;
+
+}
+
+
+#narracion .admin_partido .minuto_message{
+	width:780px;
+}
+
+
+
+#timeline_public{
+  	width:650px;
+}
+
+#timeline_public .minuto_item{
+	width:100%;
+  /*border:1px solid #000;*/
+  border-bottom:1px solid #555555;
+	margin: 5px 0 5px 0;
+	min-height: 50px;
+}
+
+#timeline_public .minuto_item .tiempo{
+	float:left;
+	width:40px;
+	font-size:18px;
+	margin-top:15px;
+	margin-left:10px;
+  color:#ffff00;
+}
+#timeline_public div.imagen_timeline{
+  width:30px;
+}
+
+
+
+#timeline_public .minuto_item .imagen_timeline{
+	float:left;
+	margin-top:10px;
+}
+
+#timeline_public .minuto_item .minuto_message{
+	float:left;
+	margin-top:5px;
+	margin-bottom:5px;
+	width: 500px;
+	margin-left:15px;
+/*	font-weight:bold;*/
+
+}
+
+#agregar_partido_wrapper{
+	display:none;
+}
+
+
+/** Desapareciendo campos que no van en el form de partidos **/
+#agregar_partido_wrapper .column-side div {
+	display:none;
+}
+
+#agregar_partido_wrapper .column-side .column-wrapper{
+	display:block;
+}
+
+
+#agregar_partido_wrapper .column-side .column-wrapper .buttons{
+	display:block;
+}
+
+
+/** Minuto Marcador css**/
+.marcador{
+	position:relative;
+}
+.minuto_marcador{
+	width:634px;
+}
+
+.minuto_marcador .minuto_local{
+	float:left;
+	width:183px;
+	margin-left:28px;
+}
+.minuto_marcador .minuto_visita{
+	float:left;
+	margin-left:195px;
+	width:182px;
+	margin-top: -48px;
+}
+
+.minuto_marcador .marcador{
+	float:left;
+	width:185px;
+	margin-left:7px;
+	text-align:left;
+}
+
+.minuto_marcador .marcador span{
+	display:inline;
+}
+
+.minuto_marcador .marcador .m_local{
+	width:44px;
+	float:left;
+	text-align:center;
+}
+
+
+.minuto_marcador .marcador .m_visitante{
+	margin-left:95px;
+	float:left;
+	width:45px;
+	text-align:center;
+}
+
+.minuto_editar{
+	float:left;
+	margin-top:15px;
+	margin-left:15px;
+}
+
+#tiempo{
+	position:absolute;
+	left: 67px;
+	top:-44px;
+}
+
+#tiempo strong{
+	font-size:10px;
+	color: #fff;
+}
+#minuto {
+	font-size:14px;
+	color: #fff;
+	top:61px;
+	left: 81px;
+	position:absolute;
+}
+
+.hasCountdown{
+	background: none;
+	border: none;
+}
