@@ -1,0 +1,42 @@
+10
+
+dir
+0
+svn+ssh://notmusa@astrata.com.mx/svn/record/simulador/record/drupal/sites/all/themes/movil_xml_theme
+svn+ssh://notmusa@astrata.com.mx/svn/record/simulador
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+eea21008-5876-4a1b-9e7c-f36f005b67ad
+
+page.tpl.php
+file
+
+
+
+add
+
+movil_xml_theme.info
+file
+
+
+
+add
+

@@ -1,0 +1,5 @@
+name = itunes_theme
+description = tema en blanco para itunes
+version = VERSION
+core = 6.x
+engine = phptemplate

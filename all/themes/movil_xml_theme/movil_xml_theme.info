@@ -1,0 +1,5 @@
+name = movil_xml_theme
+description = tema para xml movil
+version =VERSION
+core = 6.x
+engine = phptemplate
